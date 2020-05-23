@@ -69,8 +69,9 @@ Creating custom environments
     def close(self):
       ...
   ```
+  
   ```python  
-class FooEnv(gym.Env):
+  class FooEnv(gym.Env):
     metadata = {'render.modes': ['human']}
 
     def __init__(self):
